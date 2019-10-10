@@ -1,0 +1,19 @@
+nav {
+    padding: 20px;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+form {
+    padding: 20px;
+}
+
+label,
+textarea {
+    display: block;
+}
+
+textarea {
+    margin-bottom: 20px;
+}
