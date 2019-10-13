@@ -1,7 +1,21 @@
-# This assignment aims to let you create a single page application for your own portfolio.
+# This assignment aims to let you create a single page application that talks with the web for your own portfolio 📚.
 
-## Create a repository on github for your portfolio
+### Choose a team (optional) 🙋
 
-## Create a single page application with at least 3 pages (Home, Project and Add Project).
+### Create a repository on github for your portfolio. 🐎
 
-    - The Project page should fetch projects from the DB and the Add Project should save project on the DB
+### Create a trello, or similar for your portfolio. Write down tasks. 🚜
+
+### Create wireframes for your application, responsive design! 🚚
+
+## Application requirements.
+
+    - Single page application with at least 3 pages (example: Home, Project and Add Project).
+    - The Project page should make http requests to get and write some data on an API.
+
+### Optional:
+
+    - The JS code should be splitted through multiple files
+    - Create a db for the project (Firebase)
+    - Use a bundler (like Parcel)
+    - Hosting
