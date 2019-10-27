@@ -1,4 +1,4 @@
-### To run this demo on your machine follow this steps, and on the root of the project just run
+### To run this demo on your machine follow this steps:
 
     - Clone this repo to your computer
     - Navigate on the terminal to the root of the project
