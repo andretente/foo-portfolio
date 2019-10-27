@@ -1,11 +1,4 @@
-nav {
-    padding: 20px;
-}
-
-.nav-item {
-    margin-right: 10px;
-}
-form {
+body {
     padding: 20px;
 }
 
@@ -16,4 +9,38 @@ textarea {
 
 textarea {
     margin-bottom: 20px;
+    width: 300px;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.spinner {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+}
+.spinner:after {
+    content: ' ';
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid salmon;
+    border-color: salmon transparent salmon transparent;
+    animation: spinner 1.2s linear infinite;
+}
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

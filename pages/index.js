@@ -1,6 +1,6 @@
 import home from './home'
 import personal from './personal'
 import projects from './projects'
-import settings from './settings'
+import admin from './admin'
 
-export { home, personal, projects, settings }
+export { home, personal, projects, admin }

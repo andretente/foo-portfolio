@@ -16,6 +16,7 @@
 ### Optional:
 
     - The JS code should be splitted through multiple files
+    - Think on a strategy for folder structure
     - Create a db for the project (Firebase)
     - Use a bundler (like Parcel)
     - Hosting

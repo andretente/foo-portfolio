@@ -1,10 +1,10 @@
 import postProject from '../requests/post-project'
 
-export default function(doc) {
-    personalDetailsForm(doc)
+export default function(doc, main) {
+    form(doc, main)
 }
 
-function personalDetailsForm(doc) {
+function form(doc, main) {
     const fields = ['Name', 'Description', 'URL']
     const form = doc.createElement('form')
     form.addEventListener('submit', event => {
@@ -14,10 +14,12 @@ function personalDetailsForm(doc) {
             return { ...acc, [curr.toLowerCase()]: value }
         }, {})
         postProject(values)
+        form.reset()
     })
     fields.forEach(item => {
         const input = doc.createElement('textarea')
         input.setAttribute('id', item)
+        input.setAttribute('rows', '5')
         const label = doc.createElement('label')
         label.setAttribute('html-for', item)
         label.innerText = item
@@ -30,3 +32,5 @@ function personalDetailsForm(doc) {
     form.appendChild(button)
     main.appendChild(form)
 }
+
+function clearForm() {}
